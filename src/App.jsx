@@ -8,11 +8,16 @@ import Contact from './Components/contact/Contact';
 
 //css for the App
 import "./app.scss";
+//import useState
+import { useState } from 'react';
 
 function App() {
+
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <div className='app'>
-      <Topbar />
+      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className="sections">
         <Intro />
         <Portfolio />
