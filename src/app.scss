@@ -7,11 +7,20 @@
         background-color: lightsalmon;
         position: relative;
         top: 70px;
+        //scroll behavior for the speed in which the page scrolls and transitions to a section of the page
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+        //take away the scroll bar
+        scrollbar-width: none; //for firefox
+        &::-webkit-scrollbar {
+            display: none;
+        }
 
         //for eact element (component) inside 'section'
         > * {
             width: 100vw;
             height: calc(100vh - 70px);
+            scroll-snap-align: start;
         }
     }
 
