@@ -26,7 +26,7 @@
                 font-size: 40px;
                 font-weight: 700;
                 text-decoration: none;
-                color: inherit;
+                color: inherit !important;
                 margin-right: 40px;
             }
 
@@ -73,7 +73,7 @@
         color: white;
 
         .logo {
-            color: white;
+            color: white !important;
         }
 
         
