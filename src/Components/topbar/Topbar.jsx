@@ -1,5 +1,5 @@
 import "./topbar.scss"
-import MarkunreadMailboxRoundedIcon from '@mui/icons-material/MarkunreadMailboxRounded';
+import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import AccountBoxRoundedIcon from '@mui/icons-material/AccountBoxRounded';
 
 
@@ -15,7 +15,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                         <span>617-939-8888</span>
                     </div>
                     <div className="itemContainer">
-                        <MarkunreadMailboxRoundedIcon className="icon" />
+                        <AlternateEmailIcon className="icon" />
                         <span>theo.lufkin@gmail.com</span>
                     </div>
                 </div>
