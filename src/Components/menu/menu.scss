@@ -24,8 +24,10 @@
         list-style: none;
         font-size: 35px;
         color: white;
+        width: 60%;
 
         li {
+            margin-bottom: 25px;
             a {
                 font-size: inherit;
                 color: inherit;
@@ -33,6 +35,9 @@
                 
             }
             
+            &:hover {
+                font-weight: 500;
+            }
          
         }
     }
