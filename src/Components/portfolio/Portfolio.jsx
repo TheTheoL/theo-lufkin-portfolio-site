@@ -46,7 +46,7 @@ export default function Portfolio() {
             <div className="container">
                 <div className="item">
                     <img src="assets/7-landing.png" alt="" />
-                    <h3>Interactive Registration Form</h3>
+                    <h3>Interactive Form</h3>
                 </div>
                 <div className="item">
                     <img src="assets/scoreboard.png" alt="" />
@@ -61,12 +61,12 @@ export default function Portfolio() {
                     <h3>React Course Registration</h3>
                 </div>
                 <div className="item">
-                    <img src="assets/7-landing.png" alt="" />
-                    <h3>Interactive Registration Form</h3>
+                    <img src="assets/randomquotes.png" alt="" />
+                    <h3>Quote Generator</h3>
                 </div>
                 <div className="item">
-                    <img src="assets/7-landing.png" alt="" />
-                    <h3>Interactive Registration Form</h3>
+                    <img src="assets/employeedirc.png" alt="" />
+                    <h3>Employee Directory</h3>
                 </div>
             </div>
         </div >

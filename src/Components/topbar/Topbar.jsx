@@ -9,7 +9,9 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             {/* content that goes inside the toolbar */}
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro" className="logo">Theo Lufkin</a>
+                    <a href="#intro" className="logo">
+                        <img src="assets/TL.png" />
+                    </a>
                     <div className="itemContainer">
                         <AccountBoxRoundedIcon className="icon" />
                         <span>617-939-8888</span>
