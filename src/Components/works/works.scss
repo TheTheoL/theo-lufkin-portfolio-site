@@ -3,12 +3,31 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+
+    // arrows to click through the items
+    .arrow {
+        height: 50px;
+        position: absolute;
+
+        &.left {
+            left: 100px;
+            transform: rotateY(180deg);
+            cursor: pointer;
+        }
+
+        &.right {
+            right: 100px;
+            cursor: pointer;
+        }
+    }
 
     .slider {
         height: 400px;
         display: flex;
         position: absolute;
-        left: 0;
+        left: -100vw;
+        transition: all 1s ease;
 
         .container {
             width: 100vw;
