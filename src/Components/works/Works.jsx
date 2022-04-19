@@ -17,7 +17,7 @@ export default function Works() {
                             </div>
                         </div>
                         <div className="right">
-
+                            <img src="assets/7-landing.png" alt="" />
                         </div>
                     </div>
                 </div>
