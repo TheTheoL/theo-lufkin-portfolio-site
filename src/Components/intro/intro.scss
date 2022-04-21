@@ -22,6 +22,7 @@
             padding-top: 50px;
 
             @include mobile {
+                height: 400px;
                 align-items: flex-start;
             }
 

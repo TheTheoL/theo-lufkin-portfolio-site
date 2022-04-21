@@ -1,6 +1,5 @@
 import "./topbar.scss"
-import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
-import AccountBoxRoundedIcon from '@mui/icons-material/AccountBoxRounded';
+import { FiMail, FiUser } from "react-icons/fi";
 
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
@@ -11,11 +10,11 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                 <div className="left">
                     <a href="#intro" className="logo">Theo Lufkin</a>
                     <div className="itemContainer">
-                        <AccountBoxRoundedIcon className="icon" />
+                        <FiUser className="icon" />
                         <span>617-939-8888</span>
                     </div>
                     <div className="itemContainer">
-                        <AlternateEmailIcon className="icon" />
+                        <FiMail className="icon" />
                         <span>theo.lufkin@gmail.com</span>
                     </div>
                 </div>
