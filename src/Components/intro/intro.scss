@@ -57,6 +57,7 @@
             h1 {
                 font-size: 60px;
                 margin: 10px 0;
+                font-family: 'Source Sans Pro', sans-serif;
 
                 @include mobile {
                     font-size: 40px;
@@ -64,10 +65,11 @@
             }
             h2 {
                 font-size: 35px;
+                font-family: 'Source Sans Pro', sans-serif;
             }
             h3 {
                 font-size: 30px;
-
+                font-family: 'Source Sans Pro', sans-serif;
                 @include mobile {
                     font-size: 20px;
                 }
