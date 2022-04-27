@@ -21,12 +21,12 @@ export const featuredPortfolio = [{
     {
         id: 5,
         title: "Quote Generator",
-        img: "/assets/randomquotes.png"
+        img: "/assets/4-landing.png"
     },
     {
         id: 6,
         title: "Employee Directory",
-        img: "/assets/employeedirc.png"
+        img: "/assets/8-landing.png"
     },
 
 
@@ -43,3 +43,9 @@ export const reactProjects = [{
         img: "/assets/fullstack.png"
     },
 ]
+
+export const otherProjects = [{
+    id: 1,
+    title: "Mobile-first layout",
+    img: "/assets/responsivelayout.png"
+}, ]

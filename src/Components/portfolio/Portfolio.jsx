@@ -2,7 +2,7 @@ import PortfolioList from "../portpolioList/PortfolioList"
 import "./portfolio.scss"
 import { useEffect, useState } from 'react';
 // import data
-import { featuredPortfolio, reactProjects } from '../../data';
+import { featuredPortfolio, reactProjects, otherProjects } from '../../data';
 
 export default function Portfolio() {
 
@@ -12,12 +12,17 @@ export default function Portfolio() {
     const list = [
         {
             id: "featured",
-            title: "Featured"
+            title: "Featured Projects"
         },
         {
             id: "react projects",
             title: "React Projects"
+        },
+        {
+            id: "other projects",
+            title: "Other Projects"
         }
+
 
 
     ]
@@ -29,6 +34,9 @@ export default function Portfolio() {
                 break;
             case "react projects":
                 setData(reactProjects);
+                break;
+            case "other projects":
+                setData(otherProjects);
                 break;
             default:
                 setData(featuredPortfolio);

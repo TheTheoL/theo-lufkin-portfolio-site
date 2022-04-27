@@ -24,11 +24,15 @@
 
             .logo {
                 font-family: 'Source Sans Pro', sans-serif;
-                font-size: 40px;
+                font-size: 35px;
                 font-weight: 400;
                 text-decoration: none;
                 color: $mainColor;
                 margin-right: 40px;
+
+                strong {
+                    font-family: 'Satisfy', cursive;
+                }
 
                 @include mobile {
                     font-size: 30px;
@@ -59,6 +63,8 @@
 
         .right {
 
+           
+
             .hamburger {
                 width: 32px;
                 height: 25px;
@@ -76,6 +82,7 @@
                 }
             }
         }
+       
     }
 
     &.active {

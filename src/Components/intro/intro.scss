@@ -13,13 +13,16 @@
         flex: 0.5;
         
         .imgContainer {
+            background: linear-gradient(to bottom right,
+            #FF6C87, #FC7246);
             width: 600px;
             height: 600px;
             display: flex;
             align-items: flex-end;
             justify-content: center;
             float: right;
-            padding-top: 50px;
+            
+            border-radius: 50%;
 
             @include mobile {
                 height: 400px;
